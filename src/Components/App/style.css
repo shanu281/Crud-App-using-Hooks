@@ -1,0 +1,63 @@
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.App{
+    text-align: center;
+}
+.user-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input{
+    margin: .3rem 0;
+    padding: .6rem 3rem;
+    border-radius: .3rem;
+    font-weight: 300;
+ }
+
+ .user-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+ }
+
+ .user-index{
+     margin-right: 1rem;
+     color: tomato;
+     font-size: 1.8rem;
+ }
+ .user-name{
+    margin-right: 1rem;
+    margin-top: 1.3rem;
+     color:rgb(0, 35, 192);
+    
+}
+.username{
+    margin-top: 0;
+    margin-left: 1.6rem;
+    font-weight: 700;
+    font-size: 1rem;
+    color: rgb(244, 88, 40);
+}
+.edit-btn{
+    margin-right: 1rem;
+    margin-left: .6rem;
+    background-color: grey;
+    color: aqua;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 3px 10px;
+
+}
+.delete-btn{
+    
+    color: red;
+    font-weight: 600;
+
+}
